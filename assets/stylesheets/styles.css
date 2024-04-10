@@ -762,7 +762,7 @@ section {background: var(--light-color);}
   margin-bottom: 0;
 }
 
-.list-wrap .description h4{
+.list-wrap .description h5{
   color: var(--text-color);
 }
 
