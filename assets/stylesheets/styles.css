@@ -95,8 +95,8 @@ body.dark {
     outline: none;
     display: grid;
     place-items: center;
-    width: 45px;
-    height: 45px;
+    width: 30px;
+    height: 30px;
     margin-left: 10px;
 }
 
