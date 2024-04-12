@@ -8,26 +8,51 @@ document.addEventListener('DOMContentLoaded', () => {
     File Description : Main JS file of the template
   */
 
-  
+
 
   /**
    * Initiate Pure Counter
    */
   new PureCounter();
 
-  const darkModeButton = document.getElementById('darkmode-button');
+  // const darkModeButton = document.getElementById('darkmode-button');
 
+  // darkModeButton.addEventListener('click', toggleMode);
+
+  // function toggleMode() {
+  //   let buttonText = darkModeButton.innerHTML;
+  //   var element = document.body;
+  //   if (buttonText === '<i class="bi bi-moon-fill"></i>') {
+  //     element.classList.add("dark");
+  //     darkModeButton.innerHTML = '<i class="bi bi-sun-fill"></i>';
+  //   } else {
+  //     element.classList.remove("dark");
+  //     darkModeButton.innerHTML = '<i class="bi bi-moon-fill"></i>';
+  //   }
+  // }
+
+  // Sélectionnez le bouton de mode sombre
+const darkModeButton = document.getElementById('darkmode-button');
   darkModeButton.addEventListener('click', toggleMode);
 
+  // Fonction pour basculer entre le mode sombre et le mode clair
   function toggleMode() {
     let buttonText = darkModeButton.innerHTML;
     var element = document.body;
     if (buttonText === '<i class="bi bi-moon-fill"></i>') {
+      // Mode sombre
       element.classList.add("dark");
       darkModeButton.innerHTML = '<i class="bi bi-sun-fill"></i>';
+      // Changer le logo en mode sombre
+      document.querySelector('.logo-light').style.display = 'none';
+      document.querySelector('.logo-dark').style.display = 'block';
     } else {
+      // Mode clair
       element.classList.remove("dark");
       darkModeButton.innerHTML = '<i class="bi bi-moon-fill"></i>';
+      // Changer le logo en mode clair
+      document.querySelector('.logo-light').style.display = 'block';
+      document.querySelector('.logo-dark').style.display = 'none';
     }
   }
 
@@ -54,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const scrollTop2 = document.querySelector('#header');
   if (scrollTop2) {
-    const togglescrollTop = function() {
+    const togglescrollTop = function () {
       window.scrollY > 50 ? scrollTop2.classList.add('stikcy-menu') : scrollTop2.classList.remove('stikcy-menu');
     }
     window.addEventListener('load', togglescrollTop);
@@ -96,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const mobileNavHide = document.querySelector('.mobile-nav-hide');
 
   document.querySelectorAll('.mobile-nav-toggle').forEach(el => {
-    el.addEventListener('click', function(event) {
+    el.addEventListener('click', function (event) {
       event.preventDefault();
       mobileNavToogle();
     })
@@ -132,7 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const navDropdowns = document.querySelectorAll('.navbar .dropdown > a');
 
   navDropdowns.forEach(el => {
-    el.addEventListener('click', function(event) {
+    el.addEventListener('click', function (event) {
       if (document.querySelector('.mobile-nav-active')) {
         event.preventDefault();
         this.classList.toggle('active');
@@ -151,7 +176,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const glightbox = GLightbox({
     selector: '.glightbox'
   });
-  
+
 
   /**
    * Porfolio isotope and filter
@@ -173,8 +198,8 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       let menuFilters = document.querySelectorAll('.portfolio-isotope .portfolio-flters li');
-      menuFilters.forEach(function(el) {
-        el.addEventListener('click', function() {
+      menuFilters.forEach(function (el) {
+        el.addEventListener('click', function () {
           document.querySelector('.portfolio-isotope .portfolio-flters .filter-active').classList.remove('filter-active');
           this.classList.add('filter-active');
           portfolioIsotope.arrange({
@@ -195,7 +220,7 @@ document.addEventListener('DOMContentLoaded', () => {
    */
   const scrollTop = document.querySelector('.scroll-top');
   if (scrollTop) {
-    const togglescrollTop = function() {
+    const togglescrollTop = function () {
       window.scrollY > 100 ? scrollTop.classList.add('active') : scrollTop.classList.remove('active');
     }
     window.addEventListener('load', togglescrollTop);
@@ -297,7 +322,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  
+
 
   /**
    * Animation on scroll function and init

@@ -67,10 +67,19 @@
       >
         <a href="index.html" class="d-flex align-items-center">
           <img
-            src="assets/images/Icones-Logo.png"
+            src="assets/images/Iconesimple.png"
+            height="200"
+            width="auto"
+            alt="logo"
+            class="logo-light"
+          />
+          <img
+            src="assets/images/IconWithe.png"
             height="300"
             width="auto"
             alt="logo"
+            class="logo-dark"
+            style="display: none"
           />
         </a>
         <nav id="navbar" class="navbar">
@@ -88,6 +97,7 @@
                 <li><a href="about.html">A propos de nous</a></li>
                 <!-- <li><a href="packages.html">Pricing</a></li> -->
                 <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
                 <li>
                   <a href="privacy-policy.html">Terms &amp; Conditions</a>
                 </li>
@@ -118,7 +128,20 @@
           <div
             class="col-lg-7 offset-lg-5 dark-bg order-lg-1 d-flex flex-column justify-content-start text-left caption"
           >
-            <h2 data-aos="fade-up"><span>INNOVATECH</span> Labs</h2>
+            <h3 data-aos="fade-up">
+              <div class="w-auto" style="display: flex; flex-direction: row">
+                <span>INNOVATECH</span>
+                <span
+                  class="inline-block block ml-1"
+                  style="color: rgb(255, 255, 255); background-color: #14c0d8"
+                  >Labs</span
+                >
+              </div>
+              <span style="color: white"
+                >Revolutionnant l'avenir numérique</span
+              >
+            </h3>
+
             <p data-aos="fade-up" data-aos-delay="400">
               Nous sommes engagés à repousser les limites de ce qui est possible
               dans le domaine du développement informatique d'applications web
@@ -159,8 +182,12 @@
         <div class="top-icon-box position-relative">
           <div class="container position-relative">
             <div class="section-header">
-              <h2>Services We Offer</h2>
-              <p>Lorem ipsum dolor sit amet</p>
+              <h2>Nos Services</h2>
+              <p>
+                Nous proposons une gamme complète de produits et services dans
+                le domaine du développement informatique d'application web et
+                mobile ainsi que dans la transformation digitale
+              </p>
             </div>
             <div class="row gy-4">
               <div
@@ -175,13 +202,23 @@
                       alt="icon"
                     />
                   </div>
-                  <h4 class="title">
-                    <a href="" class="stretched-link">Application Design</a>
-                  </h4>
+                  <h4 class="title"><a>Transformation Digitale</a></h4>
                   <p>
-                    Ronsectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.
+                    Audit et Analyse des besoins<br />
+                    Développement de Stratégies numériques<br />
+                    Mise à euvre et suivi.
                   </p>
+                  <!-- Button trigger modal -->
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                  >
+                    Voir plus
+                  </button>
+
+                  <!-- Modal -->
                 </div>
               </div>
               <!--End Icon Box -->
@@ -198,13 +235,20 @@
                       alt="icon"
                     />
                   </div>
-                  <h4 class="title">
-                    <a href="" class="stretched-link">Web Hosting</a>
-                  </h4>
+                  <h4 class="title"><a>Développement Web et Mobile</a></h4>
                   <p>
-                    Ronsectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.
+                    Conception et développement <br />
+                    Expérience utilisateur optimisée<br />
+                    Support et Maintenance continu .
                   </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    Voir plus
+                  </button>
                 </div>
               </div>
               <!--End Icon Box -->
@@ -221,13 +265,20 @@
                       alt="icon"
                     />
                   </div>
-                  <h4 class="title">
-                    <a href="" class="stretched-link">Social Media</a>
-                  </h4>
+                  <h4 class="title"><a>Conseil en Stratégie Digitale</a></h4>
                   <p>
-                    Ronsectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.
+                    Elaboration de plan d'action personnalisés<br />
+                    Optimisation de la présence en ligne<br />
+                    Analyse et suivi des performances .
                   </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#example1Modal"
+                  >
+                    Voir plus
+                  </button>
                 </div>
               </div>
               <!--End Icon Box -->
@@ -242,12 +293,21 @@
                     <img src="assets/images/icons/service-seo.svg" alt="icon" />
                   </div>
                   <h4 class="title">
-                    <a href="" class="stretched-link">SEO Optimization</a>
+                    <a>Formation et Accompagnement des équipes</a>
                   </h4>
                   <p>
-                    Ronsectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.
+                    Frmation et accompagnement des équipes<br />
+                    Personnalisation et intégration de solutions existences<br />
+                    Formation et support technique
                   </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#example2Modal"
+                  >
+                    Voir plus
+                  </button>
                 </div>
               </div>
               <!--End Icon Box -->
@@ -265,12 +325,21 @@
                     />
                   </div>
                   <h4 class="title">
-                    <a href="" class="stretched-link">Cloud Server</a>
+                    <a>Intégration de Solutions Logicielles</a>
                   </h4>
                   <p>
-                    Ronsectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.
+                    Evaluation des besoins et recommandations<br />
+                    Personnalisation et intégration de solutions existences<br />
+                    Formation et support technique .
                   </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#example3Modal"
+                  >
+                    Voir plus
+                  </button>
                 </div>
               </div>
               <!--End Icon Box -->
@@ -287,16 +356,342 @@
                       alt="icon"
                     />
                   </div>
-                  <h4 class="title">
-                    <a href="" class="stretched-link">Data Secuity</a>
-                  </h4>
+                  <h4 class="title"><a>Service de Maintenance</a></h4>
                   <p>
-                    Ronsectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.
+                    Surveillance de la performance<br />
+                    Correction des bugs<br />
+                    Mises à jour Logicielles
                   </p>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#example4Modal"
+                  >
+                    Voir plus
+                  </button>
                 </div>
               </div>
+              <!-- <div class="col-xl-12 col-md-12" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  
+                  <h4 class="title"><a>EN RESUME</a></h4>
+                  <p>Innovatech Labs offre une gamme étendue de produits et services allant du développement d'applications sur mesure à la transformation digitale, en passant par l'intégration de solutions logicielles et le support technique, le tout dans le but d'aider ses clients à tirer pleinement parti des opportunités offertes par le numérique et à relever les défis de la société moderne.</p>
+                  
+                </div>
+              </div> -->
               <!--End Icon Box -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Button trigger modal -->
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="staticBackdrop"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">
+                Transformation Digitale
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              Innovatech Labs aide ses clients à intégrer et à personnaliser des
+              solutions logicielles existantes pour répondre à leurs besoins
+              spécifiques. Cela peut impliquer le développement d'interfaces de
+              programmation (API) pour connecter différents systèmes, la
+              personnalisation de logiciels open source ou l'intégration de
+              solutions tierces dans l'environnement informatique de
+              l'entreprise.
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Fermer
+              </button>
+              <!--<button type="button" class="btn btn-primary">Understood</button>-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="staticBackdrop  1"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">
+                Développement Web et Mobile
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              Innovatech Labs conçoit et développe des applications web et
+              mobiles personnalisées, adaptées aux besoins spécifiques de ses
+              clients. Que ce soit pour une application de commerce
+              électronique, une plateforme de gestion de contenu, un outil de
+              collaboration en entreprise ou une application mobile grand
+              public, l'entreprise assure un développement de haute qualité,
+              centré sur l'expérience utilisateur et la performance technique.
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Fermer
+              </button>
+              <!--<button type="button" class="btn btn-primary">Understood</button>-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Développement Web et Mobile
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              Innovatech Labs conçoit et développe des applications web et
+              mobiles personnalisées, adaptées aux besoins spécifiques de ses
+              clients. Que ce soit pour une application de commerce
+              électronique, une plateforme de gestion de contenu, un outil de
+              collaboration en entreprise ou une application mobile grand
+              public, l'entreprise assure un développement de haute qualité,
+              centré sur l'expérience utilisateur et la performance technique.
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="example1Modal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="example1ModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="example1ModalLabel">
+                Conseil en stratégie digitale et transformation numérique
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              Innovatech Labs accompagne ses clients dans leur transformation
+              digitale en leur fournissant des conseils stratégiques et des
+              solutions sur mesure pour optimiser leurs processus métier,
+              moderniser leurs infrastructures technologiques et tirer parti des
+              opportunités offertes par le numérique. Cela peut inclure la mise
+              en œuvre de solutions de cloud computing, l'adoption de nouvelles
+              technologies comme l'intelligence artificielle ou l'Internet des
+              objets, ou encore la mise en place de stratégies de marketing
+              digital.
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="example2Modal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="example2ModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="example2ModalLabel">
+                Formation et accompagnement des équipes
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              Innovatech Labs propose également des services de formation et
+              d'accompagnement pour aider les équipes de ses clients à maîtriser
+              les nouvelles technologies et à maximiser leur utilisation. Cela
+              peut inclure des sessions de formation sur l'utilisation des
+              applications développées, des ateliers sur les bonnes pratiques en
+              matière de développement logiciel ou des programmes de mentorat
+              pour accompagner la transformation digitale au sein de
+              l'entreprise.
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Fermer
+              </button>
+              <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="example3Modal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="example3ModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="example3ModalLabel">
+                Intégration de solutions logicielles et développement d'API
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              Innovatech Labs aide ses clients à intégrer et à personnaliser des
+              solutions logicielles existantes pour répondre à leurs besoins
+              spécifiques. Cela peut impliquer le développement d'interfaces de
+              programmation (API) pour connecter différents systèmes, la
+              personnalisation de logiciels open source ou l'intégration de
+              solutions tierces dans l'environnement informatique de
+              l'entreprise.
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Fermer
+              </button>
+              <!-- <button type="button" class="btn btn-primary">Save changes</button>-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="example4Modal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="example4ModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="example4ModalLabel">
+                Services de maintenance et de support technique
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              Après le déploiement d'une application ou d'une solution digitale,
+              Innovatech Labs assure un suivi continu en proposant des services
+              de maintenance et de support technique. Cela comprend la
+              surveillance de la performance, la correction des bugs, les mises
+              à jour logicielles et la gestion des incidents pour garantir le
+              bon fonctionnement et la fiabilité des systèmes informatiques de
+              ses clients.
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <!--<button type="button" class="btn btn-primary">Save changes</button>-->
             </div>
           </div>
         </div>
@@ -307,12 +702,10 @@
       <section>
         <div class="container" id="featured">
           <div class="section-header" data-aos="fade-up" data-aos-delay="100">
-            <h2>Pourquoi nous choisir ?</h2>
+            <h2>A propos de nous</h2>
             <p>
-              L'expertise d'Innovatech Labs repose sur plusieurs piliers clés
-              qui reflètent sa mission, son savoir-faire et sa vision innovante
-              dans le domaine du développement informatique d'applications web
-              et mobile ainsi que dans la transformation digitale.
+              Vous avez plusieurs raisons de nous choisir pour le developpement
+              de vos projets
             </p>
           </div>
           <div class="row">
@@ -532,7 +925,7 @@
                   class="btn btn-secondary"
                   data-dismiss="modal"
                 >
-                  Ferme
+                  Fermer
                 </button>
                 <button type="button" class="btn btn-primary">
                   Contactez nous
@@ -1401,56 +1794,7 @@
             <div class="swiper-wrapper align-items-center">
               <div class="swiper-slide">
                 <img
-                  src="assets/images/clients/client-1.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/images/clients/client-2.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/images/clients/client-3.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/images/clients/client-4.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/images/clients/client-5.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/images/clients/client-6.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/images/clients/client-7.png"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="swiper-slide">
-                <img
-                  src="assets/images/clients/client-8.png"
+                  src="assets/images/Icones-Logo.png"
                   class="img-fluid"
                   alt=""
                 />
@@ -1465,8 +1809,8 @@
       <section id="team" class="team sections-bg">
         <div class="container aos-init aos-animate" data-aos="fade-up">
           <div class="section-header">
-            <h2>Notre équipe</h2>
-            <p>Lorem ipsum dolor sit amet</p>
+            <h2>EQUIPES</h2>
+            <p>Notre équipe dynamique</p>
           </div>
 
           <div class="row gy-4">
@@ -1477,85 +1821,21 @@
             >
               <div class="member">
                 <img
-                  src="assets/images/team/team-1.jpg"
+                  src="assets/images/team/team-1.jpeg"
                   class="img-fluid"
                   alt=""
                 />
-                <h4>Jhone Bi</h4>
-                <span>Application Manager</span>
+                <h4>Mr Cédric N'goran</h4>
+                <span>Managing Partner at Data Strategy Group </span>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                </div>
-              </div>
-            </div>
-            <!-- End Team Member -->
-
-            <div
-              class="col-xl-3 col-md-6 d-flex aos-init aos-animate"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div class="member">
-                <img
-                  src="assets/images/team/team-2.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <h4>Sani Awesome</h4>
-                <span>Social Media</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                </div>
-              </div>
-            </div>
-            <!-- End Team Member -->
-
-            <div
-              class="col-xl-3 col-md-6 d-flex aos-init aos-animate"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div class="member">
-                <img
-                  src="assets/images/team/team-3.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <h4>Andrio Willi</h4>
-                <span>Content Writer</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                </div>
-              </div>
-            </div>
-            <!-- End Team Member -->
-
-            <div
-              class="col-xl-3 col-md-6 d-flex aos-init aos-animate"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <div class="member">
-                <img
-                  src="assets/images/team/team-4.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <h4>Afa Jonson</h4>
-                <span>Business Manager</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.facebook.com/ngorancedric90"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a
+                    href="https://ci.linkedin.com/in/c%C3%A9dric-n-goran-42b4a5a4"
+                    ><i class="bi bi-linkedin"></i
+                  ></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                 </div>
               </div>
@@ -1571,7 +1851,7 @@
         <div class="container" data-aos="fade-up">
           <div class="section-header">
             <h2>FAQ</h2>
-            <p>Lorem ipsum dolor sit amet</p>
+            <p></p>
           </div>
           <div class="row gy-4">
             <div class="col-lg-12">
@@ -1713,14 +1993,13 @@
         >
           <div class="row gy-4">
             <div class="col-lg-12">
-              <h3>Let's Discuss your Projects</h3>
+              <h3>Contactez nous pour plus de details</h3>
               <p>
-                We pride ourselves with our ability to perform and deliver
-                results. Use the form below to discuss your project needs with
-                our team, we will get back asap
+                cliquez sur le bouton, et patientez le temps que la boite mail
+                s'ouvre
               </p>
               <a class="cta-btn" href="mailto:tchetchelevis6@gmail.com"
-                >Conatct Us</a
+                >Conatctez nous</a
               >
             </div>
           </div>
@@ -1733,83 +2012,31 @@
         <div class="container" data-aos="fade-up">
           <div class="section-header">
             <h2>Blogs</h2>
-            <p>Lorem ipsum dolor sit amet</p>
+            <p>l'actualité sur nos différentes sorties</p>
           </div>
           <div class="row gy-4">
             <div class="col-lg-4">
               <article>
                 <div class="post-img">
                   <img
-                    src="assets/images/blog/blog-1.jpg"
+                    src="assets/images/opening.jpg"
                     alt=""
                     class="img-fluid"
                   />
                 </div>
-                <p class="post-category">Domain & Hosting</p>
+                <p class="post-category">Ouverture de l'agence</p>
                 <h2 class="title">
                   <a href="blog-details.html"
-                    >How to host website on any hosting provider?</a
+                    ><strong
+                      >Innovatech-Labs ouvre ses portes très bientot...</strong
+                    ></a
                   >
                 </h2>
                 <div class="d-flex align-items-center">
                   <div class="post-meta">
-                    <p class="post-author">William Bla</p>
+                    <p class="post-author">Emmanuel levi</p>
                     <p class="post-date">
-                      <time datetime="2022-01-01">Feb 1, 2022</time>
-                    </p>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <!-- End post list item -->
-
-            <div class="col-lg-4">
-              <article>
-                <div class="post-img">
-                  <img
-                    src="assets/images/blog/blog-2.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </div>
-                <p class="post-category">Advertisement</p>
-                <h2 class="title">
-                  <a href="blog-details.html"
-                    >How to create add on google adwords?</a
-                  >
-                </h2>
-                <div class="d-flex align-items-center">
-                  <div class="post-meta">
-                    <p class="post-author">Jobi Ret</p>
-                    <p class="post-date">
-                      <time datetime="2022-01-01">Oct 5, 2022</time>
-                    </p>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <!-- End post list item -->
-
-            <div class="col-lg-4">
-              <article>
-                <div class="post-img">
-                  <img
-                    src="assets/images/blog/blog-3.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </div>
-                <p class="post-category">Marketing</p>
-                <h2 class="title">
-                  <a href="blog-details.html"
-                    >What is digital marketing and why is important?</a
-                  >
-                </h2>
-                <div class="d-flex align-items-center">
-                  <div class="post-meta">
-                    <p class="post-author">Main Dow</p>
-                    <p class="post-date">
-                      <time datetime="2022-01-01">Dec 22, 2022</time>
+                      <time datetime="2022-01-01">12 avril 2024</time>
                     </p>
                   </div>
                 </div>
@@ -1826,7 +2053,9 @@
       <div id="contact" class="contact-section section">
         <div class="section-header">
           <h2>Contactez nous !</h2>
-          <p>Envoyez nous un mail directement</p>
+          <p>
+            Envoyez un mail directement, et nous vous repondrons très vite 😊
+          </p>
         </div>
         <div class="container">
           <div class="row">
@@ -1866,44 +2095,89 @@
             <div class="col-lg-8 col-md-12" data-aos="fade-left">
               <div class="contact-form-box contact-form contact-form-3">
                 <div class="form-container-box">
-                  <form class="contact-form form" id="ajax-contact" method="post" action="assets/phpscripts/contact.php">
+                  <form
+                    class="contact-form form"
+                    id="ajax-contact"
+                    method="post"
+                    action="assets/phpscripts/contact.php"
+                  >
                     <div class="controls">
                       <div class="row">
                         <div class="col-md-6">
                           <div class="form-group form-input-box">
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Name*"
-                              required="required" data-error="Name is required.">
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="name"
+                              name="name"
+                              placeholder="Name*"
+                              required="required"
+                              data-error="Name is required."
+                            />
                             <div class="help-block with-errors"></div>
                           </div>
                         </div>
                         <div class="col-md-6">
                           <div class="form-group form-input-box">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Email*"
-                              required="required" data-error="Valid email is required.">
+                            <input
+                              type="email"
+                              class="form-control"
+                              id="email"
+                              name="email"
+                              placeholder="Email*"
+                              required="required"
+                              data-error="Valid email is required."
+                              style="color: rgb(144, 141, 141)"
+                            />
                             <div class="help-block with-errors"></div>
                           </div>
                         </div>
                         <div class="col-md-12">
                           <div class="form-group form-input-box">
-                            <input type="text" class="form-control" name="subject" placeholder="Subject"
-                              required="required">
+                            <input
+                              type="text"
+                              class="form-control"
+                              name="subject"
+                              placeholder="Subject"
+                              required="required"
+                              style="color: rgb(144, 141, 141)"
+                            />
                           </div>
                         </div>
                         <div class="col-12">
                           <div class="form-group form-input-box">
-                            <textarea class="form-control" id="message" name="message" rows="7"
-                              placeholder="Write Your Message*" required="required"
-                              data-error="Please, leave us a message."></textarea>
+                            <textarea
+                              class="form-control"
+                              id="message"
+                              name="message"
+                              rows="7"
+                              placeholder="Write Your Message*"
+                              required="required"
+                              data-error="Please, leave us a message."
+                            ></textarea>
                             <div class="help-block with-errors"></div>
                           </div>
                         </div>
                         <div class="col-md-12">
-                          <button type="submit" data-text="Send Message">Send Message</button>
+                          <button type="submit" data-text="Send Message">
+                            Send Message
+                          </button>
                         </div>
                         <div class="messages">
-                          <div class="alert alert alert-success alert-dismissable alert-dismissable hidden"
-                            id="msgSubmit"><button type="button" class="close" data-dismiss="alert"
-                              aria-hidden="true">&times;</button> Thank You! your message has been sent. </div>
+                          <div
+                            class="alert alert alert-success alert-dismissable alert-dismissable hidden"
+                            id="msgSubmit"
+                          >
+                            <button
+                              type="button"
+                              class="close"
+                              data-dismiss="alert"
+                              aria-hidden="true"
+                            >
+                              &times;
+                            </button>
+                            Thank You! your message has been sent.
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -2020,18 +2294,14 @@
               <div class="footer-widget">
                 <div class="footer-logo">
                   <a href="index.html" class="logo d-flex align-items-center">
-                    <img src="assets/images/logo.png" alt="logo" />
+                    <img src="assets/images/Icones-Logo.png" alt="logo" />
                   </a>
                 </div>
                 <div class="footer-text">
-                  <p>
-                    Lorem ipsum dolor sit amet, consec tetur adipisicing elit,
-                    sed do eiusmod tempor incididuntut consec tetur adipisicing
-                    elit,Lorem ipsum dolor sit amet.
-                  </p>
+                  <p>Révolutionnant l'avenir numérique</p>
                 </div>
                 <div class="footer-social-icon">
-                  <span>Follow us</span>
+                  <span>Suivez-nous</span>
                   <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
                   <a href="#" class="facebook"
                     ><i class="bi bi-facebook"></i
@@ -2052,12 +2322,26 @@
                   <h3>Services</h3>
                 </div>
                 <ul class="list">
-                  <li><a href="services.html">Web Design</a></li>
-                  <li><a href="services.html">App Developemnt</a></li>
-                  <li><a href="services.html">Cloud Services</a></li>
-                  <li><a href="services.html">Domain adn Hosting</a></li>
-                  <li><a href="services.html">Seo Optimization</a></li>
-                  <li><a href="services.html">Social Media</a></li>
+                  <li><a href="services.html">Transformation Digitale</a></li>
+                  <li>
+                    <a href="services.html"
+                      >Développement d'Applications Web et Mobiles</a
+                    >
+                  </li>
+                  <li>
+                    <a href="services.html">Conseil en Stratégie Digitale </a>
+                  </li>
+                  <li>
+                    <a href="services.html"
+                      >Formation et Accompagnement des équipes</a
+                    >
+                  </li>
+                  <li>
+                    <a href="services.html"
+                      >Intégration de Solutions Logicielles</a
+                    >
+                  </li>
+                  <li><a href="services.html">Service Maintenance</a></li>
                 </ul>
               </div>
             </div>
@@ -2067,15 +2351,15 @@
                   <h3>Information</h3>
                 </div>
                 <ul class="list">
-                  <li><a href="about.html">About</a></li>
+                  <li><a href="about.html">A propos de nous</a></li>
                   <li><a href="packages.html">Pricing</a></li>
-                  <li><a href="team.html">Team</a></li>
+                  <li><a href="team.html">Equipe</a></li>
                   <li><a href="porfolio.html">Portfolio</a></li>
                   <li><a href="faq.html">FAQs</a></li>
-                  <li><a href="team.html">Team</a></li>
+                  <!-- <li><a href="team.html">Team</a></li>-->
                   <li><a href="blogs.html">Blogs</a></li>
                   <li><a href="blogs-details.html">Blog Details</a></li>
-                  <li><a href="coming-soon.html">Coming Soon</a></li>
+                  <!--<li><a href="coming-soon.html">Coming Soon</a></li>-->
                   <li><a href="privacy-policy.html">Terms & Conditions</a></li>
                   <li><a href="privacy-policy.html">Privacy Policy</a></li>
                 </ul>
@@ -2113,7 +2397,7 @@
                 </div>
                 <div class="subscribe-form">
                   <form action="#">
-                    <input type="text" placeholder="Email Address" />
+                    <input type="text" placeholder="Addresse Email" />
                     <button><i class="bi bi-telegram"></i></button>
                   </form>
                 </div>
@@ -2124,10 +2408,10 @@
             <div class="col-xl-6 col-lg-6 text-left text-lg-left">
               <div class="copyright-text">
                 <p>
-                  Technoit © 2023 - Designed by
-                  <a href="https://www.templatemonster.com/authors/zrthemes/"
-                    >Zr Themes</a
-                  >
+                  Innovatech-Labs © 2024
+                  <a
+                    href="https://www.templatemonster.com/authors/zrthemes/"
+                  ></a>
                 </p>
               </div>
             </div>
