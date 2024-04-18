@@ -55,6 +55,18 @@
     />
     <!-- Main CSS File -->
     <link href="assets/stylesheets/styles.css" rel="stylesheet" />
+    <style>
+      /* Ajouter un peu plus d'espace entre les accordéons */
+      .accordion .accordion-item {
+        margin-bottom: 20px;
+      }
+      /* Enlever les bordures */
+      .accordion .accordion-item {
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+    </style>
   </head>
 
   <body>
@@ -144,103 +156,405 @@
       <div class="single-page">
         <!-- section des a propos de nous -->
         <section>
-          <div class="container" id="featured">
-            <div class="row">
-              <div class="col-md-6 left">
-                <!-- items -->
-                <div
-                  class="list-wrap d-flex text-center justify-content-center"
-                  data-aos="fade-right"
-                  data-aos-delay="100"
-                >
-                  <div class="description icon-box">
-                    <h4
-                      class="d-flex text-center justify-content-center"
-                      style="color: rgb(72, 72, 250)"
-                    >
-                      <strong>Nos valeurs</strong>
-                    </h4>
-                    <p>
-                      <strong>1. Innovation : </strong>
-                      Nous sommes constamment à la recherche de nouvelles idées
-                      et de nouvelles technologies pour créer des solutions
-                      innovantes et différenciées.
-                    </p>
-                    <p>
-                      <strong>2. Excellence : </strong>
-                      Nous nous engageons à fournir des produits et services de
-                      la plus haute qualité, répondant aux normes les plus
-                      rigoureuses de l'industrie.
-                    </p>
-                    <p>
-                      <strong>3. Collaboration : </strong>
-                      Nous croyons au pouvoir de la collaboration et travaillons
-                      en étroite collaboration avec nos clients pour comprendre
-                      leurs besoins et leur offrir des solutions sur mesure.
-                    </p>
-                    <p>
-                      <strong>4. Agilité : </strong>
-                      Nous adoptons une approche agile dans notre travail, nous
-                      permettant de nous adapter rapidement aux changements et
-                      de livrer des résultats de manière efficace et efficiente.
-                    </p>
+          <div
+            class="d-flex align-items-center justify-content-center"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <img
+              src="assets/images/page1.jpg"
+              width="70%"
+              height="70%"
+              class="rounded"
+              alt="nos valeurs"
+            />
+          </div>
+          <!-- nos soluions section -->
+          <section id="faq" class="faq">
+            <div class="container" data-aos="fade-up">
+              <div class="section-header">
+                <h2>Nos Solutions</h2>
+                <p></p>
+              </div>
+              <div class="row gy-4">
+                <div class="col-lg-6">
+                  <div
+                    class="accordion accordion-flush"
+                    id="faqlist"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="accordion-item">
+                      <h3 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#dev-content-1"
+                        >
+                          <span class="num"
+                            ><i class="bi bi-android2"></i
+                          ></span>
+                          Developpement d'application web et mobile
+                        </button>
+                      </h3>
+                      <div
+                        id="dev-content-1"
+                        class="accordion-collapse collapse show"
+                        data-bs-parent="#faqlist"
+                      >
+                        <div class="accordion-body">
+                          <div
+                            class="accordion accordion-flush"
+                            id="#devSous-content-1"
+                            data-aos="fade-left"
+                            data-aos-delay="100"
+                          >
+                            <div class="accordion-item">
+                              <h4 class="accordion-header">
+                                <button
+                                  class="accordion-button collapsed"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#dev-sous-content-1"
+                                >
+                                  <span class="num"
+                                    ><i class="bi bi-browser-edge"></i
+                                  ></span>
+                                  Progressive web App (PWA)
+                                </button>
+                              </h4>
+                              <div
+                                id="dev-sous-content-1"
+                                class="accordion-collapse collapse"
+                                data-bs-parent="#devSous-content-1"
+                              >
+                                <div class="accordion-body">
+                                  <img
+                                    src="assets/images/pwa.jpeg"
+                                    alt="progressive web app"
+                                    style="
+                                      width: 90%;
+                                      height: 10%;
+                                      border-radius: 1%;
+                                    "
+                                  />
+                                  <p>
+                                    Les <strong>PWA</strong> sont des
+                                    applications web qui offrent une expérience
+                                    utilisateur similaire à celle des
+                                    applications natives, avec des
+                                    fonctionnalités telles que le fonctionnement
+                                    hors ligne, les notifications push et
+                                    l'accès au matériel du périphérique. Les PWA
+                                    sont de plus en plus populaires car elles
+                                    permettent aux entreprises de proposer des
+                                    applications plus légères et plus rapides
+                                    sans avoir besoin de développer des
+                                    applications natives pour chaque plateforme.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="accordion accordion-flush"
+                            id="#devSous-content-1"
+                            data-aos="fade-left"
+                            data-aos-delay="100"
+                          >
+                            <div class="accordion-item">
+                              <h4 class="accordion-header">
+                                <button
+                                  class="accordion-button collapsed"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#dev-sous-content-2"
+                                >
+                                  <span class="num"
+                                    ><i class="bi bi-box"></i
+                                  ></span>
+                                  Développement basé sur les composants
+                                </button>
+                              </h4>
+                              <div
+                                id="dev-sous-content-2"
+                                class="accordion-collapse collapse"
+                                data-bs-parent="#devSous-content-1"
+                              >
+                                <div class="accordion-body">
+                                  <img
+                                    src="assets/images/pwa.jpeg"
+                                    alt="progressive web app"
+                                    style="
+                                      width: 90%;
+                                      height: 10%;
+                                      border-radius: 1%;
+                                    "
+                                  />
+                                  <p>
+                                    <strong
+                                      >Le développement basé sur les
+                                      composants</strong
+                                    >, également connu sous le nom de
+                                    développement modulaire, consiste à diviser
+                                    une application en petits composants
+                                    réutilisables. Cette approche facilite la
+                                    maintenance, la mise à jour et l'évolutivité
+                                    des applications, tout en permettant aux
+                                    développeurs de travailler de manière plus
+                                    collaborative et efficace.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="accordion accordion-flush"
+                            id="#devSous-content-1"
+                            data-aos="fade-left"
+                            data-aos-delay="100"
+                          >
+                            <div class="accordion-item">
+                              <h4 class="accordion-header">
+                                <button
+                                  class="accordion-button collapsed"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#dev-sous-content-3"
+                                >
+                                  <span class="num"
+                                    ><i class="bi bi-filetype-jsx"></i
+                                  ></span>
+                                  Frameworks JavaScript modernes
+                                </button>
+                              </h4>
+                              <div
+                                id="dev-sous-content-3"
+                                class="accordion-collapse collapse"
+                                data-bs-parent="#devSous-content-1"
+                              >
+                                <div class="accordion-body">
+                                  <img
+                                    src="assets/images/framework.png"
+                                    alt="framework javascript"
+                                    style="
+                                      width: 100%;
+                                      height: 10%;
+                                      border-radius: 1%;
+                                    "
+                                  />
+                                  <p>
+                                    Des frameworks JavaScript modernes comme
+                                    React, Vue.js et Angular continuent à gagner
+                                    en popularité pour le développement
+                                    d'applications web et mobiles. Ces
+                                    frameworks offrent des fonctionnalités
+                                    avancées, des performances optimisées et une
+                                    communauté active de développeurs, ce qui
+                                    les rend idéaux pour la création
+                                    d'interfaces utilisateur interactives et
+                                    réactives.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="accordion accordion-flush"
+                            id="#devSous-content-1"
+                            data-aos="fade-left"
+                            data-aos-delay="100"
+                          >
+                            <div class="accordion-item">
+                              <h4 class="accordion-header">
+                                <button
+                                  class="accordion-button collapsed"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#dev-sous-content-4"
+                                >
+                                  <span class="num"
+                                    ><i class="bi bi-robot"></i
+                                  ></span>
+                                  Intelligence artificielle et apprentissage
+                                  automatique
+                                </button>
+                              </h4>
+                              <div
+                                id="dev-sous-content-4"
+                                class="accordion-collapse collapse"
+                                data-bs-parent="#devSous-content-1"
+                              >
+                                <div class="accordion-body">
+                                  <img
+                                    src="assets/images/ia.jpeg"
+                                    alt="machine learning"
+                                    style="
+                                      width: 100%;
+                                      height: 10%;
+                                      border-radius: 1%;
+                                    "
+                                  />
+                                  <p>
+                                    L'intégration de l'intelligence artificielle
+                                    (IA) et de l'apprentissage automatique (ML)
+                                    dans les applications web et mobiles devient
+                                    de plus en plus courante. Les
+                                    fonctionnalités d'IA et de ML, telles que la
+                                    reconnaissance d'image, le traitement du
+                                    langage naturel et la personnalisation des
+                                    recommandations, améliorent l'expérience
+                                    utilisateur et permettent aux entreprises de
+                                    proposer des solutions plus intelligentes et
+                                    plus adaptées aux besoins de leurs
+                                    utilisateurs.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="accordion accordion-flush"
+                            id="#devSous-content-1"
+                            data-aos="fade-left"
+                            data-aos-delay="100"
+                          >
+                            <div class="accordion-item">
+                              <h4 class="accordion-header">
+                                <button
+                                  class="accordion-button collapsed"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#dev-sous-content-5"
+                                >
+                                  <span class="num"
+                                    ><i class="bi bi-code-slash"></i
+                                  ></span>
+                                  Développement multiplateforme
+                                </button>
+                              </h4>
+                              <div
+                                id="dev-sous-content-5"
+                                class="accordion-collapse collapse"
+                                data-bs-parent="#devSous-content-1"
+                              >
+                                <div class="accordion-body">
+                                  <p
+                                    class="d-flex justify-content-between align-items-center"
+                                  >
+                                    <i class="bi bi-apple"></i>
+                                    <i class="bi bi-android2"></i>
+                                    <i class="bi bi-globe2"></i>
+                                  </p>
+                                  <p>
+                                    Le développement multiplateforme permet aux
+                                    développeurs de créer des applications qui
+                                    fonctionnent sur plusieurs plateformes,
+                                    telles qu'Android, iOS et le web, en
+                                    utilisant un seul codebase. Des outils tels
+                                    que React Native, Flutter et Xamarin
+                                    facilitent le développement d'applications
+                                    multiplateformes, permettant aux
+                                    développeurs de réduire les coûts et les
+                                    délais de développement tout en atteignant
+                                    un public plus large.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="accordion accordion-flush"
+                            id="#devSous-content-1"
+                            data-aos="fade-left"
+                            data-aos-delay="100"
+                          >
+                            <div class="accordion-item">
+                              <h4 class="accordion-header">
+                                <button
+                                  class="accordion-button collapsed"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#dev-sous-content-6"
+                                >
+                                  <span class="num"
+                                    ><i class="bi bi-code-slash"></i
+                                  ></span>
+                                  Conseil en Stratégie Digitale
+                                </button>
+                              </h4>
+                              <div
+                                id="dev-sous-content-6"
+                                class="accordion-collapse collapse"
+                                data-bs-parent="#devSous-content-1"
+                              >
+                                <div class="accordion-body">
+                                  <!-- <p
+                                    class="d-flex justify-content-between align-items-center"
+                                  >
+                                    <i class="bi bi-apple"></i>
+                                    <i class="bi bi-android2"></i>
+                                    <i class="bi bi-globe2"></i>
+                                  </p> -->
+                                  <p>
+                                    Nous offrons des conseils stratégiques aux
+                                    entreprises pour les aider à élaborer des
+                                    stratégies numériques efficaces et à
+                                    maximiser leur présence en ligne.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- # Faq item-->
+                    <!-- # Faq item-->
                   </div>
                 </div>
-              </div>
-              <div class="col-md-6 right">
-                <!-- items -->
-                <div
-                  class="list-wrap d-flex text-center justify-content-center"
-                  data-aos="fade-left"
-                  data-aos-delay="100"
-                >
-                  <div class="description icon-box">
-                    <h4
-                      class="d-flex text-center justify-content-center"
-                      style="color: rgb(72, 72, 250)"
-                    >
-                      <strong>Nos solutions</strong>
-                    </h4>
-                    <p>
-                      <strong
-                        >1. Développement d'Applications Web et Mobiles :
-                      </strong>
-                      Nous concevons et développons des applications web et
-                      mobiles sur mesure, adaptées aux besoins spécifiques de
-                      nos clients et offrant une expérience utilisateur
-                      exceptionnelle. Les nouvelles technologies de
-                      développement d'applications web et mobiles évoluent
-                      rapidement, offrant de nouvelles opportunités et des
-                      fonctionnalités avancées pour les développeurs et les
-                      utilisateurs.
-                    </p>
-                    <p>
-                      <strong>2. Transformation Digitale : </strong>
-                      Nous accompagnons les entreprises dans leur transformation
-                      digitale en les aidant à moderniser leurs infrastructures,
-                      à optimiser leurs processus métier et à tirer parti des
-                      technologies numériques pour stimuler leur croissance.
-                    </p>
-                    <p>
-                      <strong>3. Conseil en Stratégie Digitale : </strong>
-                      Nous offrons des conseils stratégiques aux entreprises
-                      pour les aider à élaborer des stratégies numériques
-                      efficaces et à maximiser leur présence en ligne.
-                    </p>
-                    <p>
-                      <strong
-                        >4. Intégration de Solutions Logicielles :
-                      </strong>
-                      Nous aidons les entreprises à intégrer et à personnaliser
-                      des solutions logicielles existantes pour répondre à leurs
-                      besoins spécifiques et améliorer leur efficacité
-                      opérationnelle.
-                    </p>
+                <div class="col-lg-6">
+                  <div
+                    class="accordion accordion-flush"
+                    id=""
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="accordion-item">
+                      <h3 class="accordion-header">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#faq-content-3"
+                        >
+                          <span class="num"><i class="bi bi-repeat"></i></span>
+                          Transformation digitale
+                        </button>
+                      </h3>
+                      <div
+                        id="faq-content-3"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#faqlist"
+                      >
+                        <div class="accordion-body">
+                          <p>
+                            Nous accompagnons les entreprises dans leur
+                            transformation digitale en les aidant à moderniser
+                            leurs infrastructures, à optimiser leurs processus
+                            métier et à tirer parti des technologies numériques
+                            pour stimuler leur croissance.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- # Faq item-->
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+          </section>
         </section>
         <!-- Featured -->
         <section>
