@@ -94,19 +94,18 @@
                 <i class="bi bi-chevron-down dropdown-indicator"></i
               ></a>
               <ul>
-                <li><a href="about.html">A propos de nous</a></li>
-                <!-- <li><a href="packages.html">Pricing</a></li> -->
-                <li><a href="faqs.html">FAQs</a></li>
-                <li><a href="blogs.html">Blogs</a></li>
+                <li><a href="#featured">A propos de nous</a></li>
+                <li><a href="#faqs">FAQ</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#clients">Nos partenaires</a></li>
+                <li><a href="#team">Notre equipe</a></li>
                 <li>
                   <a href="privacy-policy.html">Terms &amp; Conditions</a>
                 </li>
                 <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                <!-- <li><a href="blogs.html">Blogs</a></li> -->
-                <!-- <li><a href="blog-details.html">Blog Detail Page</a></li> -->
               </ul>
             </li>
-            <li><a href="blogs.html">News</a></li>
+            <li><a href="#blogs">Actualités</a></li>
             <li><a href="contact.html">Contactez nous !</a></li>
           </ul>
         </nav>
@@ -198,27 +197,28 @@
                 <div class="icon-box">
                   <div class="">
                     <img
+                      class="img-fluid"
+                      style="border-radius: 2%"
                       src="assets/images/transformation.jpg"
                       alt="icon"
                     />
                   </div>
-                  <h4 class="title"><a>Transformation Digitale</a></h4>
-                  <p>
-                    Audit et Analyse des besoins<br />
-                    Développement de Stratégies numériques<br />
-                    Mise à euvre et suivi.
-                  </p>
-                  <!-- Button trigger modal -->
-                  <button
-                    type="button"
-                    class="btn btn-primary"
-                    data-bs-toggle="modal"
-                    data-bs-target="#staticBackdrop"
-                  >
-                    Voir plus
-                  </button>
-
-                  <!-- Modal -->
+                  <div class="mt-3">
+                    <h4 class="title"><a>Transformation Digitale</a></h4>
+                    <p>
+                      Audit et Analyse des besoins<br />
+                      Développement de Stratégies numériques<br />
+                      Mise à euvre et suivi.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      data-bs-toggle="modal"
+                      data-bs-target="#staticBackdrop"
+                    >
+                      Voir plus
+                    </button>
+                  </div>
                 </div>
               </div>
               <!--End Icon Box -->
@@ -719,14 +719,19 @@
                     clés qui reflètent sa mission...
                   </p>
                   <!-- Button trigger modal -->
-                  <a href="expertise-detail.html">
+                  <!-- <a href="expertise-detail.html">
                     <button
                       type=""
                       class="btn btn-sm"
                       style="font-style: italic"
                     >
-                      savoir plus...
+                      voir plus...
                     </button>
+                  </a> -->
+                  <a href="expertise-detail.html" style="text-decoration: none">
+                    <span style="font-style: italic"
+                      >savoir plus <i class="bi bi-arrow-right ml-1"></i
+                    ></span>
                   </a>
                 </div>
                 <div class="icon">
@@ -745,14 +750,19 @@
                     philosophie qui guide...
                   </p>
 
-                  <a href="approche-detail.html">
+                  <!-- <a href="approche-detail.html">
                     <button
                       type=""
-                      class="btn btn-sm"
+                      class="btn btn-sm btn-outlined-primary"
                       style="font-style: italic"
                     >
-                      savoir plus...
+                      voir plus...
                     </button>
+                  </a> -->
+                  <a href="approche-detail.html" style="text-decoration: none">
+                    <span style="font-style: italic"
+                      >savoir plus <i class="bi bi-arrow-right ml-1"></i
+                    ></span>
                   </a>
                 </div>
                 <div class="icon">
@@ -791,14 +801,14 @@
                     L'engagement envers l'excellence et l'innovation est au cœur
                     de la mission d'Innovatech Labs...
                   </p>
-                  <button
-                    type="button"
-                    class="btn btn-primary btn-sm"
-                    data-toggle="modal"
-                    data-target="#engagementModal"
+                  <a
+                    href="engagement-detail.html"
+                    style="text-decoration: none"
                   >
-                    voir plus
-                  </button>
+                    <span style="font-style: italic"
+                      >savoir plus <i class="bi bi-arrow-right ml-1"></i
+                    ></span>
+                  </a>
                 </div>
               </div>
 
@@ -814,14 +824,14 @@
                     >
                   </h5>
                   <p>La collaboration étroite avec exceptionnels...</p>
-                  <button
-                    type="button"
-                    class="btn btn-primary btn-sm"
-                    data-toggle="modal"
-                    data-target="#collaborationModal"
+                  <a
+                    href="collaboration-detail.html"
+                    style="text-decoration: none"
                   >
-                    voir plus
-                  </button>
+                    <span style="font-style: italic"
+                      >savoir plus <i class="bi bi-arrow-right ml-1"></i
+                    ></span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -1932,7 +1942,41 @@
                       <p>
                         Vous pouvez nous contacter via ces différents canaux :
                       </p>
-                      <div></div>
+
+                      <p>
+                        <a href="#" style="text-decoration: none">
+                          <span style="font-style: italic; font-size: 15px"
+                            ><i class="bi bi-facebook mr-2"></i>Facebook</span
+                          >
+                        </a>
+                      </p>
+                      <p>
+                        <a href="#" style="text-decoration: none">
+                          <span style="font-style: italic; font-size: 15px"
+                            ><i class="bi bi-twitter mr-2"></i>twitter</span
+                          >
+                        </a>
+                      </p>
+                      <p>
+                        <a href="#" style="text-decoration: none">
+                          <span style="font-style: italic; font-size: 15px"
+                            ><i class="bi bi-instagram mr-2"></i>Instagram</span
+                          >
+                        </a>
+                      </p>
+
+                      <p>
+                        <span class="text-primary"
+                          ><i class="bi bi-telephone mr-1"></i>Telephone :
+                        </span>
+                        +225 05 65 35 89 85 / +225 25 22 01 96 10
+                      </p>
+
+                      <p>
+                        <span class="text-primary"
+                          ><i class="bi bi-envelope-fill mr-1"></i>Email : </span
+                        >info@teambi.ci
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -2114,7 +2158,8 @@
                               name="name"
                               placeholder="Nom*"
                               required="required"
-                              data-error="Name is required."
+                              data-error="Votre nom est obligatoire."
+                              style="color: rgb(93, 92, 92)"
                             />
                             <div class="help-block with-errors"></div>
                           </div>
@@ -2128,8 +2173,8 @@
                               name="email"
                               placeholder="Email*"
                               required="required"
-                              data-error="Valid email is required."
-                              style="color: rgb(144, 141, 141)"
+                              data-error="Votre email est obligatoire"
+                              style="color: rgb(93, 92, 92)"
                             />
                             <div class="help-block with-errors"></div>
                           </div>
@@ -2155,7 +2200,8 @@
                               rows="7"
                               placeholder="Ecrivez votre message*"
                               required="required"
-                              data-error="Please, leave us a message."
+                              data-error="Vous devez entrer un message avant d'envoyer"
+                              style="color: rgb(93, 92, 92)"
                             ></textarea>
                             <div class="help-block with-errors"></div>
                           </div>
@@ -2178,7 +2224,7 @@
                             >
                               &times;
                             </button>
-                            Merci de nous avoir envoyé ce message.
+                            Message bien envoyé, nous vous repondons au plus vite !
                           </div>
                         </div>
                       </div>
