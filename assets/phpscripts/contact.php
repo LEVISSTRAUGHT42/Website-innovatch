@@ -1,33 +1,29 @@
 <?php
-$to = "tchetchelevis6@gmail.com"; // Votre adresse e-mail où vous recevrez les messages
-$from = $_POST['email']; // L'adresse e-mail du formulaire
-$first_name = $_POST['name']; // Prénom de l'expéditeur
-$subject = $_POST['subject']; // Objet du message
-$message = $_POST['message']; // Contenu du message
+    /*  
+        Template name    : Technoit - IT Solutions & Business Services Multipurpose Responsive Website Template
+        Author           : ZRTHEMES
+        Version          : 1.0
+        File Description : Contact PHP file of the template
+    */
+    //this is your Email address
+    //kinldy update your email here
+    $to = "info@teambi.ci"; 
+    $from = $_POST['email']; 
+    //this is the sender's Email address
+    //this is firt name
+    $first_name = $_POST['name'];
+    //this is last name
+    $last_name = $_POST['name'];
+    //this is subject
+    $subject = $_POST['subject'];
+    //this is message body
+    $message = $_POST['message'];
 
-// Configurer les paramètres du serveur SMTP de Mailtrap
-$smtp_server = "smtp.mailtrap.io";
-$smtp_port = 2525;
-$smtp_username = "emmanuel";
-$smtp_password = "Bac2020delevis";
+    $headers = "From:" . $from . "\r\n" .
+        'Reply-To: webmaster@example.com' . "\r\n" .
+        'X-Mailer: PHP/' . phpversion();
 
-$headers = "From:" . $from . "\r\n" .
-    'Reply-To: ' . $from . "\r\n" .
-    'X-Mailer: PHP/' . phpversion();
-
-// Configurer l'envoi d'e-mail via SMTP
-ini_set("SMTP", $smtp_server);
-ini_set("smtp_port", $smtp_port);
-ini_set("smtp_username", $smtp_username);
-ini_set("smtp_password", $smtp_password);
-
-// Envoi de l'e-mail
-$mail1 = mail($to, $subject, $message, $headers);
-$mail2 = mail($from, $subject, $message, $headers);
-
-if ($mail1 && $mail2) {
-    echo "email bien envoyé"; // Envoi réussi
-} else {
-    echo "echec de l'envoie"; // Erreur lors de l'envoi
-}
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject,$message,$headers2); 
 ?>
