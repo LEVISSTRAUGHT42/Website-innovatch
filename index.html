@@ -11,8 +11,8 @@
     <meta content="" name="ZRTHEMES" />
 
     <!-- Favicons -->
-    <link href="assets/images/favicon.png" rel="icon" />
-    <link href="assets/images/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link rel="shortcut icon" href="assets/images/iconeWithBack.png" type="x-icon" />
+
 
     <!-- boostrap -->
     <link
@@ -58,6 +58,7 @@
   </head>
 
   <body>
+    <!-- header -->
     <header
       id="header"
       class="header d-flex align-items-center sticked stikcy-menu"
@@ -75,7 +76,7 @@
           />
           <img
             src="assets/images/IconWithe.png"
-            height="300"
+            height="200"
             width="auto"
             alt="logo"
             class="logo-dark"
@@ -105,7 +106,7 @@
                 <li><a href="privacy-policy.html">Privacy Policy</a></li>
               </ul>
             </li>
-            <li><a href="#blogs">Actualités</a></li>
+            <li><a href="blogs.html">Actualités</a></li>
             <li><a href="contact.html">Contactez nous !</a></li>
           </ul>
         </nav>
@@ -165,8 +166,8 @@
                 href="#services"
                 class="btn-get-started"
                 data-aos="fade-up"
-                data-aos-delay="1000"
-                >Commencez</a
+                data-aos-delay="900"
+                >Explorez</a
               >
             </div>
           </div>
@@ -199,7 +200,7 @@
                     <img
                       class="img-fluid"
                       style="border-radius: 2%"
-                      src="assets/images/transformation.jpg"
+                      src="assets/images/transformation.jpeg"
                       alt="icon"
                     />
                   </div>
@@ -209,15 +210,12 @@
                       Audit et Analyse des besoins<br />
                       Développement de Stratégies numériques<br />
                       Mise à euvre et suivi.
-                    </p>
-                    <button
-                      type="button"
-                      class="btn btn-primary"
-                      data-bs-toggle="modal"
-                      data-bs-target="#staticBackdrop"
-                    >
-                      Voir plus
-                    </button>
+                    </p><br>
+                    <button 
+                  type="button"
+                    class="btn btn-primary"
+                    
+                  onclick="window.location.href = 'transformation.html'">Voir plus</button>
                   </div>
                 </div>
               </div>
@@ -229,9 +227,11 @@
                 data-aos-delay="200"
               >
                 <div class="icon-box">
-                  <div class="icon">
+                  <div class="">
                     <img
-                      src="assets/images/icons/service-hosting.svg"
+                    class="img-fluid"
+                    style="border-radius: 2%"
+                      src="assets/images/Capture1.jpg"
                       alt="icon"
                     />
                   </div>
@@ -240,15 +240,12 @@
                     Conception et développement <br />
                     Expérience utilisateur optimisée<br />
                     Support et Maintenance continu .
-                  </p>
-                  <button
-                    type="button"
+                  </p> <br><br>
+                  <button 
+                  type="button"
                     class="btn btn-primary"
-                    data-bs-toggle="modal"
-                    data-bs-target="#exampleModal"
-                  >
-                    Voir plus
-                  </button>
+                    
+                  onclick="window.location.href = 'developpement.html'">Voir plus</button>
                 </div>
               </div>
               <!--End Icon Box -->
@@ -259,26 +256,27 @@
                 data-aos-delay="500"
               >
                 <div class="icon-box">
-                  <div class="icon">
+                  <div class="">
                     <img
-                      src="assets/images/icons/service-social.svg"
+                    class="img-fluid"
+                    style="border-radius: 2%"
+                      src="assets/images/strategie.jpg"
                       alt="icon"
                     />
                   </div>
+                  <div class="mt-3">
                   <h4 class="title"><a>Conseil en Stratégie Digitale</a></h4>
                   <p>
                     Elaboration de plan d'action personnalisés<br />
                     Optimisation de la présence en ligne<br />
                     Analyse et suivi des performances .
-                  </p>
-                  <button
-                    type="button"
+                  </p><br><br>
+                  <button 
+                  type="button"
                     class="btn btn-primary"
-                    data-bs-toggle="modal"
-                    data-bs-target="#example1Modal"
-                  >
-                    Voir plus
-                  </button>
+                    
+                  onclick="window.location.href = 'strategie.html'">Voir plus</button>
+                </div>
                 </div>
               </div>
               <!--End Icon Box -->
@@ -289,25 +287,29 @@
                 data-aos-delay="100"
               >
                 <div class="icon-box">
-                  <div class="icon">
-                    <img src="assets/images/icons/service-seo.svg" alt="icon" />
+                  <div class="">
+                    
+                    <img 
+                    class="img-fluid"
+                    style="border-radius: 2%"
+                     src="assets/images/formation.jpg" alt="icon" />
                   </div>
+                  <div class="mt-3">
+
                   <h4 class="title">
                     <a>Formation et Accompagnement des équipes</a>
                   </h4>
                   <p>
-                    Frmation et accompagnement des équipes<br />
+                    Formation et accompagnement des équipes<br />
                     Personnalisation et intégration de solutions existences<br />
                     Formation et support technique
-                  </p>
-                  <button
-                    type="button"
+                  </p><br>
+                  <button 
+                  type="button"
                     class="btn btn-primary"
-                    data-bs-toggle="modal"
-                    data-bs-target="#example2Modal"
-                  >
-                    Voir plus
-                  </button>
+                    
+                  onclick="window.location.href = 'formation.html'">Voir plus</button>
+                  </div>
                 </div>
               </div>
               <!--End Icon Box -->
@@ -318,12 +320,16 @@
                 data-aos-delay="200"
               >
                 <div class="icon-box">
-                  <div class="icon">
+                  <div class="">
                     <img
-                      src="assets/images/icons/service-cloud.svg"
+                    class="img-fluid"
+                    style="border-radius: 2%"
+                      src="assets/images/integration1.jpg"
                       alt="icon"
                     />
                   </div>
+                  <div class="mt-3">
+
                   <h4 class="title">
                     <a>Intégration de Solutions Logicielles</a>
                   </h4>
@@ -331,15 +337,13 @@
                     Evaluation des besoins et recommandations<br />
                     Personnalisation et intégration de solutions existences<br />
                     Formation et support technique .
-                  </p>
-                  <button
-                    type="button"
+                  </p><br><br><br>
+                  <button 
+                  type="button"
                     class="btn btn-primary"
-                    data-bs-toggle="modal"
-                    data-bs-target="#example3Modal"
-                  >
-                    Voir plus
-                  </button>
+                    
+                  onclick="window.location.href = 'integration.html'">Voir plus</button>
+                  </div>
                 </div>
               </div>
               <!--End Icon Box -->
@@ -350,26 +354,29 @@
                 data-aos-delay="500"
               >
                 <div class="icon-box">
-                  <div class="icon">
+                  <div class="">
                     <img
-                      src="assets/images/icons/service-secure.svg"
+                    class="img-fluid"
+                    style="border-radius: 2%"
+                      src="assets/images/service1.jpg"
                       alt="icon"
                     />
                   </div>
+                  <div class="mt-3">
+
                   <h4 class="title"><a>Service de Maintenance</a></h4>
                   <p>
                     Surveillance de la performance<br />
                     Correction des bugs<br />
                     Mises à jour Logicielles
-                  </p>
-                  <button
-                    type="button"
+                  </p><br><br><br><br><br><br><br><br>
+
+                  <button 
+                  type="button"
                     class="btn btn-primary"
-                    data-bs-toggle="modal"
-                    data-bs-target="#example4Modal"
-                  >
-                    Voir plus
-                  </button>
+                    
+                  onclick="window.location.href = 'service.html'">Voir plus</button>
+                  </div>
                 </div>
               </div>
               <!-- <div class="col-xl-12 col-md-12" data-aos="fade-up" data-aos-delay="500">
@@ -387,315 +394,6 @@
       </div>
       <!-- Button trigger modal -->
 
-      <!-- Modal -->
-      <div
-        class="modal fade"
-        id="staticBackdrop"
-        data-bs-backdrop="static"
-        data-bs-keyboard="false"
-        tabindex="-1"
-        aria-labelledby="staticBackdropLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-dialog-scrollable">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">
-                Transformation Digitale
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">
-              Innovatech Labs aide ses clients à intégrer et à personnaliser des
-              solutions logicielles existantes pour répondre à leurs besoins
-              spécifiques. Cela peut impliquer le développement d'interfaces de
-              programmation (API) pour connecter différents systèmes, la
-              personnalisation de logiciels open source ou l'intégration de
-              solutions tierces dans l'environnement informatique de
-              l'entreprise.
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Fermer
-              </button>
-              <!--<button type="button" class="btn btn-primary">Understood</button>-->
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div
-        class="modal fade"
-        id="staticBackdrop  1"
-        data-bs-backdrop="static"
-        data-bs-keyboard="false"
-        tabindex="-1"
-        aria-labelledby="staticBackdropLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-dialog-scrollable">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">
-                Développement Web et Mobile
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">
-              Innovatech Labs conçoit et développe des applications web et
-              mobiles personnalisées, adaptées aux besoins spécifiques de ses
-              clients. Que ce soit pour une application de commerce
-              électronique, une plateforme de gestion de contenu, un outil de
-              collaboration en entreprise ou une application mobile grand
-              public, l'entreprise assure un développement de haute qualité,
-              centré sur l'expérience utilisateur et la performance technique.
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Fermer
-              </button>
-              <!--<button type="button" class="btn btn-primary">Understood</button>-->
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="modal fade"
-        id="exampleModal"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">
-                Développement Web et Mobile
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">
-              Innovatech Labs conçoit et développe des applications web et
-              mobiles personnalisées, adaptées aux besoins spécifiques de ses
-              clients. Que ce soit pour une application de commerce
-              électronique, une plateforme de gestion de contenu, un outil de
-              collaboration en entreprise ou une application mobile grand
-              public, l'entreprise assure un développement de haute qualité,
-              centré sur l'expérience utilisateur et la performance technique.
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-              <!--<button type="button" class="btn btn-primary">Save changes</button>-->
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="modal fade"
-        id="example1Modal"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="example1ModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="example1ModalLabel">
-                Conseil en stratégie digitale et transformation numérique
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">
-              Innovatech Labs accompagne ses clients dans leur transformation
-              digitale en leur fournissant des conseils stratégiques et des
-              solutions sur mesure pour optimiser leurs processus métier,
-              moderniser leurs infrastructures technologiques et tirer parti des
-              opportunités offertes par le numérique. Cela peut inclure la mise
-              en œuvre de solutions de cloud computing, l'adoption de nouvelles
-              technologies comme l'intelligence artificielle ou l'Internet des
-              objets, ou encore la mise en place de stratégies de marketing
-              digital.
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-              <!--<button type="button" class="btn btn-primary">Save changes</button>-->
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div
-        class="modal fade"
-        id="example2Modal"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="example2ModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="example2ModalLabel">
-                Formation et accompagnement des équipes
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">
-              Innovatech Labs propose également des services de formation et
-              d'accompagnement pour aider les équipes de ses clients à maîtriser
-              les nouvelles technologies et à maximiser leur utilisation. Cela
-              peut inclure des sessions de formation sur l'utilisation des
-              applications développées, des ateliers sur les bonnes pratiques en
-              matière de développement logiciel ou des programmes de mentorat
-              pour accompagner la transformation digitale au sein de
-              l'entreprise.
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Fermer
-              </button>
-              <!--<button type="button" class="btn btn-primary">Save changes</button>-->
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="modal fade"
-        id="example3Modal"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="example3ModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="example3ModalLabel">
-                Intégration de solutions logicielles et développement d'API
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">
-              Innovatech Labs aide ses clients à intégrer et à personnaliser des
-              solutions logicielles existantes pour répondre à leurs besoins
-              spécifiques. Cela peut impliquer le développement d'interfaces de
-              programmation (API) pour connecter différents systèmes, la
-              personnalisation de logiciels open source ou l'intégration de
-              solutions tierces dans l'environnement informatique de
-              l'entreprise.
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Fermer
-              </button>
-              <!-- <button type="button" class="btn btn-primary">Save changes</button>-->
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="modal fade"
-        id="example4Modal"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="example4ModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="example4ModalLabel">
-                Services de maintenance et de support technique
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">
-              Après le déploiement d'une application ou d'une solution digitale,
-              Innovatech Labs assure un suivi continu en proposant des services
-              de maintenance et de support technique. Cela comprend la
-              surveillance de la performance, la correction des bugs, les mises
-              à jour logicielles et la gestion des incidents pour garantir le
-              bon fonctionnement et la fiabilité des systèmes informatiques de
-              ses clients.
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-              <!--<button type="button" class="btn btn-primary">Save changes</button>-->
-            </div>
-          </div>
-        </div>
-      </div>
       <!-- End Service Section -->
 
       <!-- Featured -->
@@ -718,16 +416,6 @@
                     L'expertise d'Innovatech Labs repose sur plusieurs piliers
                     clés qui reflètent sa mission...
                   </p>
-                  <!-- Button trigger modal -->
-                  <!-- <a href="expertise-detail.html">
-                    <button
-                      type=""
-                      class="btn btn-sm"
-                      style="font-style: italic"
-                    >
-                      voir plus...
-                    </button>
-                  </a> -->
                   <a href="expertise-detail.html" style="text-decoration: none">
                     <span style="font-style: italic"
                       >savoir plus <i class="bi bi-arrow-right ml-1"></i
@@ -749,16 +437,6 @@
                     L'approche personnalisée et centrée sur le client est une
                     philosophie qui guide...
                   </p>
-
-                  <!-- <a href="approche-detail.html">
-                    <button
-                      type=""
-                      class="btn btn-sm btn-outlined-primary"
-                      style="font-style: italic"
-                    >
-                      voir plus...
-                    </button>
-                  </a> -->
                   <a href="approche-detail.html" style="text-decoration: none">
                     <span style="font-style: italic"
                       >savoir plus <i class="bi bi-arrow-right ml-1"></i
@@ -838,910 +516,8 @@
             <!-- end  right -->
           </div>
         </div>
-        <!-- Modals -->
-        <div
-          class="modal fade"
-          id="expertiseModal"
-          tabindex="-1"
-          role="dialog"
-          aria-labelledby="exampleModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog modal-dialog-scrollable" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">
-                  <strong>Expertise technologique avancée</strong>
-                </h5>
-                <button
-                  type="button"
-                  class="close"
-                  data-dismiss="modal"
-                  aria-label="Close"
-                >
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <p>
-                  L'expertise d'Innovatech Labs repose sur plusieurs piliers
-                  clés qui reflètent sa mission, son savoir-faire et sa vision
-                  innovante dans le domaine du développement informatique
-                  d'applications web et mobile ainsi que dans la transformation
-                  digitale. Voici comment on peut la décrire :
-                </p>
-                <div>
-                  <p>
-                    <strong>1. Innovation technologique avancée :</strong>
-                    Innovatech Labs se distingue par sa capacité à intégrer les
-                    dernières avancées technologiques dans ses solutions. Que ce
-                    soit en matière de développement logiciel, de conception
-                    d'interfaces utilisateur ou d'intégration de technologies
-                    émergentes telles que l'intelligence artificielle ou la
-                    blockchain, l'entreprise est en mesure d'apporter des
-                    solutions novatrices et à la pointe de la technologie à ses
-                    clients.
-                  </p>
-                  <p>
-                    <strong
-                      >2. Expertise en développement d'applications web et
-                      mobile :</strong
-                    >
-                    Forte d'une équipe de développeurs talentueux et
-                    expérimentés, Innovatech Labs excelle dans la conception, le
-                    développement et le déploiement d'applications web et
-                    mobiles de haute qualité. L'entreprise maîtrise les
-                    principaux langages de programmation, frameworks et
-                    plateformes de développement, lui permettant de répondre aux
-                    besoins les plus complexes de ses clients.
-                  </p>
-                  <p>
-                    <strong
-                      >3. Approche agile et orientée vers les résultats
-                      :</strong
-                    >
-                    Innovatech Labs adopte une approche agile dans son processus
-                    de développement, favorisant la collaboration étroite avec
-                    les clients et une itération rapide pour s'adapter aux
-                    changements et aux feedbacks. L'entreprise est axée sur la
-                    fourniture de solutions qui offrent une réelle valeur
-                    ajoutée et des résultats tangibles pour ses clients.
-                  </p>
-                  <p>
-                    <strong
-                      >4. Transformation digitale et optimisation des
-                      processus:</strong
-                    >
-                    En tant qu'acteur de premier plan dans le domaine de la
-                    transformation digitale, Innovatech Labs aide ses clients à
-                    moderniser leurs infrastructures, à optimiser leurs
-                    processus métier et à tirer parti des technologies
-                    numériques pour stimuler leur croissance et leur
-                    compétitivité. L'entreprise propose des solutions sur mesure
-                    qui s'adaptent aux besoins spécifiques de chaque
-                    organisation, en mettant l'accent sur l'efficacité
-                    opérationnelle, l'innovation et l'expérience utilisateur.
-                  </p>
-                  <p>
-                    En résumé, l'expertise d'Innovatech Labs réside dans sa
-                    capacité à allier innovation technologique, expertise en
-                    développement d'applications, approche agile et orientation
-                    vers les résultats, ainsi que dans sa capacité à accompagner
-                    ses clients dans leur transformation digitale pour les aider
-                    à atteindre leurs objectifs commerciaux et stratégiques.
-                  </p>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-dismiss="modal"
-                >
-                  Fermer
-                </button>
-                <button type="button" class="btn btn-primary">
-                  Contactez nous
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="modal fade"
-          id="approcheModal"
-          tabindex="-1"
-          role="dialog"
-          aria-labelledby="approcheModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog modal-dialog-scrollable" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="approcheModalLabel">
-                  <strong
-                    >Approche personnalisée et centrée sur le client</strong
-                  >
-                </h5>
-                <button
-                  type="button"
-                  class="close"
-                  data-dismiss="modal"
-                  aria-label="Close"
-                >
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <p>
-                  L'approche personnalisée et centrée sur le client est une
-                  philosophie qui guide les actions d'Innovatech Labs dans
-                  toutes ses interactions avec ses clients. Cette approche
-                  repose sur la conviction que chaque client est unique, avec
-                  des besoins, des défis et des objectifs spécifiques, et qu'il
-                  est essentiel de comprendre ces particularités pour fournir
-                  des solutions qui répondent précisément à leurs attentes.
-                  Voici comment Innovatech Labs met en pratique cette approche :
-                </p>
-                <div>
-                  <p>
-                    <strong
-                      >1. Compréhension approfondie des besoins du client
-                      :</strong
-                    >
-                    Avant de proposer une solution, Innovatech Labs prend le
-                    temps de comprendre en profondeur les besoins et les
-                    objectifs de chaque client. Cela implique des discussions
-                    approfondies, des analyses de marché et des évaluations des
-                    processus métier existants pour identifier les défis
-                    spécifiques auxquels le client est confronté.
-                  </p>
-
-                  <p>
-                    <strong>2. Personnalisation des solutions </strong>
-                    Forte de cette compréhension approfondie, Innovatech Labs
-                    crée des solutions sur mesure qui sont spécifiquement
-                    adaptées aux besoins du client. Plutôt que d'appliquer une
-                    approche universelle, l'entreprise ajuste ses méthodes, ses
-                    outils et ses technologies pour répondre aux exigences
-                    uniques de chaque projet.
-                  </p>
-                  <p>
-                    <strong
-                      >3. Communication transparente et collaboration étroite
-                      :</strong
-                    >
-                    Innovatech Labs place une grande importance sur la
-                    communication transparente et la collaboration étroite avec
-                    ses clients. L'entreprise s'engage à tenir ses clients
-                    informés à chaque étape du processus, à recueillir leurs
-                    feedbacks et à les intégrer dans le développement de la
-                    solution. Cela permet d'assurer que la solution finale est
-                    parfaitement alignée avec les attentes du client.
-                  </p>
-                  <p>
-                    <strong>4. Flexibilité et réactivité :</strong>
-                    Innovatech Labs reconnaît que les besoins des clients
-                    peuvent évoluer au fil du temps, et s'engage à être flexible
-                    et réactif pour s'adapter à ces changements. Que ce soit en
-                    cours de projet ou après le déploiement de la solution,
-                    l'entreprise est prête à ajuster ses stratégies et ses plans
-                    pour répondre aux nouveaux défis et aux nouvelles
-                    opportunités qui se présentent.
-                  </p>
-                  <p>
-                    <strong>5. Suivi et support continu : </strong>
-                    Même après la livraison de la solution, Innovatech Labs
-                    continue à soutenir ses clients en offrant un suivi et un
-                    support technique continu. Cela garantit que la solution
-                    reste efficace et pertinente à long terme, et que les
-                    clients sont pleinement satisfaits de leur investissement.
-                  </p>
-                  <p>
-                    En résumé, l'approche personnalisée et centrée sur le client
-                    d'Innovatech Labs se traduit par une compréhension
-                    approfondie des besoins du client, la personnalisation des
-                    solutions, une communication transparente et une
-                    collaboration étroite, une flexibilité et une réactivité,
-                    ainsi qu'un suivi et un support continu pour assurer la
-                    satisfaction à long terme du client.
-                  </p>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-dismiss="modal"
-                >
-                  Fermer
-                </button>
-                <button type="button" class="btn btn-primary">
-                  Contactez nous
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="modal fade"
-          id="engagementModal"
-          tabindex="-1"
-          role="dialog"
-          aria-labelledby="engagementModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog modal-dialog-scrollable" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="engagementModalLabel">
-                  <strong>
-                    Engagement envers l'excellence et l'innovation</strong
-                  >
-                </h5>
-                <button
-                  type="button"
-                  class="close"
-                  data-dismiss="modal"
-                  aria-label="Close"
-                >
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-
-              <div class="modal-body">
-                <p>
-                  L'engagement envers l'excellence et l'innovation est au cœur
-                  de la mission d'Innovatech Labs. Cette philosophie guide
-                  l'entreprise dans tous ses efforts pour fournir des solutions
-                  de la plus haute qualité et pour repousser les limites de ce
-                  qui est possible dans le domaine de la technologie et de la
-                  transformation digitale. Voici comment Innovatech Labs met en
-                  pratique cet engagement :
-                </p>
-                <div>
-                  <p>
-                    <strong
-                      >1. Excellence dans la qualité des produits et des
-                      services :</strong
-                    >
-                    Innovatech Labs s'efforce de fournir des produits et des
-                    services de la plus haute qualité à ses clients. Cela
-                    implique un engagement à respecter les normes les plus
-                    élevées de l'industrie en termes de développement logiciel,
-                    de conception d'interfaces utilisateur, de performance
-                    technique et de sécurité des données. L'entreprise met en
-                    place des processus rigoureux de contrôle de la qualité et
-                    s'assure que chaque livrable répond aux attentes élevées de
-                    ses clients.
-                  </p>
-
-                  <p>
-                    <strong>2. Innovation continue :</strong>
-                    Innovatech Labs est constamment à la recherche de nouvelles
-                    idées, de nouvelles technologies et de nouvelles approches
-                    pour repousser les limites de l'innovation. L'entreprise
-                    encourage la créativité et l'exploration, encourageant ses
-                    équipes à penser en dehors des sentiers battus et à proposer
-                    des solutions novatrices qui offrent une réelle valeur
-                    ajoutée à ses clients. Innovatech Labs investit également
-                    dans la recherche et le développement pour explorer de
-                    nouveaux domaines et tester de nouvelles technologies
-                    émergentes.
-                  </p>
-                  <p>
-                    <strong
-                      >3. Suivi des tendances et des meilleures pratiques
-                      :</strong
-                    >
-                    Pour maintenir son engagement envers l'excellence et
-                    l'innovation, Innovatech Labs reste à l'affût des dernières
-                    tendances, des avancées technologiques et des meilleures
-                    pratiques de l'industrie. L'entreprise participe à des
-                    conférences, des événements et des formations pour rester
-                    informée des développements les plus récents et pour
-                    intégrer les meilleures pratiques dans ses processus et ses
-                    solutions.
-                  </p>
-                  <p>
-                    <strong>4. Feedbacks et amélioration continue :</strong>
-                    Innovatech Labs valorise les feedbacks de ses clients et
-                    s'engage à utiliser ces informations pour s'améliorer
-                    constamment. L'entreprise encourage un dialogue ouvert avec
-                    ses clients, recueillant leurs commentaires et leurs
-                    suggestions pour identifier les domaines d'amélioration et
-                    mettre en œuvre des mesures correctives. Cela permet à
-                    Innovatech Labs de rester agile et réactif aux besoins
-                    changeants de ses clients et de maintenir son engagement
-                    envers l'excellence et l'innovation à long terme.
-                  </p>
-                  <p>
-                    <strong>5. Suivi et support continu : </strong>
-                    Même après la livraison de la solution, Innovatech Labs
-                    continue à soutenir ses clients en offrant un suivi et un
-                    support technique continu. Cela garantit que la solution
-                    reste efficace et pertinente à long terme, et que les
-                    clients sont pleinement satisfaits de leur investissement.
-                  </p>
-                  <p>
-                    En résumé, l'approche personnalisée et centrée sur le client
-                    d'Innovatech Labs se traduit par une compréhension
-                    approfondie des besoins du client, la personnalisation des
-                    solutions, une communication transparente et une
-                    collaboration étroite, une flexibilité et une réactivité,
-                    ainsi qu'un suivi et un support continu pour assurer la
-                    satisfaction à long terme du client.
-                  </p>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-dismiss="modal"
-                >
-                  Fermer
-                </button>
-                <button type="button" class="btn btn-primary">
-                  Contactez nous
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="modal fade"
-          id="collaborationModal"
-          tabindex="-1"
-          role="dialog"
-          aria-labelledby="collaborationModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog modal-dialog-scrollable" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="collaborationModalLabel">
-                  <strong>
-                    Collaboration étroite avec nos clients pour des résultats
-                    exceptionnels</strong
-                  >
-                </h5>
-                <button
-                  type="button"
-                  class="close"
-                  data-dismiss="modal"
-                  aria-label="Close"
-                >
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-
-              <div class="modal-body">
-                <p>
-                  La collaboration étroite avec les clients est un élément
-                  essentiel de la philosophie d'Innovatech Labs pour fournir des
-                  résultats exceptionnels. Cette approche repose sur une
-                  relation de partenariat solide et une communication ouverte
-                  tout au long du processus de travail. Voici comment Innovatech
-                  Labs met en pratique cette collaboration étroite :
-                </p>
-                <div>
-                  <p>
-                    <strong
-                      >1. Compréhension approfondie des besoins du client :
-                    </strong>
-                    Avant de commencer tout projet, Innovatech Labs s'engage à
-                    comprendre en profondeur les besoins, les objectifs et les
-                    contraintes de chaque client. Cela implique des discussions
-                    approfondies, des réunions de brainstorming et des sessions
-                    de travail collaboratives pour clarifier les attentes et
-                    établir des objectifs clairs.
-                  </p>
-                  <p>
-                    <strong
-                      >2. Définition des objectifs et des livrables ensemble
-                      :</strong
-                    >
-                    Une fois que les besoins du client sont bien compris,
-                    Innovatech Labs travaille en étroite collaboration avec le
-                    client pour définir les objectifs du projet et les livrables
-                    attendus. Cela permet d'aligner les attentes des deux
-                    parties dès le départ et de s'assurer que tous les
-                    intervenants sont sur la même longueur d'onde.
-                  </p>
-                  <p>
-                    <strong
-                      >3. Communication transparente et régulière :
-                    </strong>
-                    Tout au long du projet, Innovatech Labs maintient une
-                    communication transparente et régulière avec le client. Cela
-                    peut inclure des réunions régulières de suivi, des mises à
-                    jour fréquentes sur l'avancement du projet, des rapports
-                    d'étape détaillés et une disponibilité constante pour
-                    répondre aux questions et aux préoccupations du client.
-                  </p>
-                  <p>
-                    <strong
-                      >4. Collaboration active tout au long du processus
-                      :</strong
-                    >
-                    Innovatech Labs encourage une collaboration active avec le
-                    client tout au long du processus de travail. Cela peut
-                    impliquer des sessions de travail conjointes, des ateliers
-                    de design participatif, des tests d'acceptation utilisateur
-                    et d'autres activités qui permettent au client de
-                    s'impliquer directement dans le développement de la
-                    solution.
-                  </p>
-                  <p>
-                    <strong>5. Intégration des feedbacks du client : </strong>
-                    Innovatech Labs valorise les feedbacks de ses clients et les
-                    intègre activement dans le processus de travail.
-                    L'entreprise encourage le client à donner son avis à chaque
-                    étape du projet, en recueillant ses commentaires sur les
-                    prototypes, les maquettes et les versions préliminaires de
-                    la solution. Cela permet d'identifier rapidement les
-                    ajustements nécessaires et de s'assurer que la solution
-                    finale répond aux besoins et aux attentes du client.
-                  </p>
-                  <p>
-                    En résumé, la collaboration étroite avec les clients est une
-                    approche fondamentale pour obtenir des résultats
-                    exceptionnels chez Innovatech Labs. En travaillant en
-                    partenariat avec les clients, en maintenant une
-                    communication ouverte et en intégrant activement leurs
-                    feedbacks tout au long du processus, l'entreprise peut
-                    garantir que ses solutions sont parfaitement adaptées aux
-                    besoins et aux attentes de ses clients, et qu'elles offrent
-                    une réelle valeur ajoutée à leur activité.
-                  </p>
-                </div>
-              </div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-dismiss="modal"
-                >
-                  Fermer
-                </button>
-                <button type="button" class="btn btn-primary">
-                  Contactez nous
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- fin des modals -->
       </section>
       <!-- Featured -->
-
-      <!-- Portfolio Section -->
-      <!-- <section id="portfolio" class="portfolio">
-        <div class="container" data-aos="fade-up">
-          <div class="section-header">
-            <h2>Our Portfolio</h2>
-            <p>Lorem ipsum dolor sit amet</p>
-          </div>
-          <div
-            class="portfolio-isotope"
-            data-portfolio-filter="*"
-            data-portfolio-layout="masonry"
-            data-portfolio-sort="original-order"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <div>
-              <ul class="portfolio-flters">
-                <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-app">App Design</li>
-                <li data-filter=".filter-product">App Development</li>
-                <li data-filter=".filter-branding">Branding</li>
-                <li data-filter=".filter-books">It Solutions</li>
-              </ul>
-            </div>
-
-            <div class="row gy-4 portfolio-container">
-              <div class="col-xl-4 col-md-6 portfolio-item filter-app">
-                <div class="portfolio-wrap">
-                  <a
-                    href="assets/images/portfolio/product-1.jpg"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox"
-                    ><img
-                      src="assets/images/portfolio/product-1.jpg"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                </div>
-              </div>
-
-              <div class="col-xl-4 col-md-6 portfolio-item filter-product">
-                <div class="portfolio-wrap">
-                  <a
-                    href="assets/images/portfolio/product-2.jpg"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox"
-                    ><img
-                      src="assets/images/portfolio/product-2.jpg"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                </div>
-              </div>
-
-              <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
-                <div class="portfolio-wrap">
-                  <a
-                    href="assets/images/portfolio/product-3.jpg"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox"
-                    ><img
-                      src="assets/images/portfolio/product-3.jpg"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                </div>
-              </div>
-
-              <div class="col-xl-4 col-md-6 portfolio-item filter-books">
-                <div class="portfolio-wrap">
-                  <a
-                    href="assets/images/portfolio/product-4.jpg"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox"
-                    ><img
-                      src="assets/images/portfolio/product-4.jpg"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                </div>
-              </div>
-
-              <div class="col-xl-4 col-md-6 portfolio-item filter-app">
-                <div class="portfolio-wrap">
-                  <a
-                    href="assets/images/portfolio/product-5.jpg"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox"
-                    ><img
-                      src="assets/images/portfolio/product-5.jpg"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                </div>
-              </div>
-
-              <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
-                <div class="portfolio-wrap">
-                  <a
-                    href="assets/images/portfolio/product-6.jpg"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox"
-                    ><img
-                      src="assets/images/portfolio/product-6.jpg"
-                      class="img-fluid"
-                      alt=""
-                  /></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
-      <!-- End Portfolio Section -->
-
-      <!-- Start Pricing Section -->
-      <!-- <div class="pricing section">
-        <div class="container-fluid">
-          <div class="container">
-            <div class="section-header">
-              <h2>Pricing Plans</h2>
-              <p>Lorem ipsum dolor sit amet</p>
-            </div>
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="card text-center">
-                  <div class="title">
-                    <h2>Basic</h2>
-                  </div>
-                  <div class="price">
-                    <h4><sup>$</sup>25</h4>
-                  </div>
-                  <div class="option">
-                    <ul>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i>
-                        Unlimited GB Space
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i> 30
-                        Domain Names
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i>
-                        Free SSL
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i>
-                        Daily Backup
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i>
-                        Free Templates
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i>
-                        Free Email
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i> 10
-                        Databases
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i>
-                        Unlimited Email Address
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i>
-                        Live Support
-                      </li>
-                    </ul>
-                  </div>
-                  <a href="#">Order Now</a>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="card text-center">
-                  <div class="title">
-                    <h2>Standard</h2>
-                  </div>
-                  <div class="price">
-                    <h4><sup>$</sup>50</h4>
-                  </div>
-                  <div class="option">
-                    <ul>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i>
-                        Unlimited GB Space
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i> 30
-                        Domain Names
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i>
-                        Free SSL
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i>
-                        Daily Backup
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i>
-                        Free Templates
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i>
-                        Free Email
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i> 10
-                        Databases
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i>
-                        Unlimited Email Address
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i>
-                        Live Support
-                      </li>
-                    </ul>
-                  </div>
-                  <a href="#">Order Now</a>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="card text-center">
-                  <div class="title">
-                    <h2>Premium</h2>
-                  </div>
-                  <div class="price">
-                    <h4><sup>$</sup>100</h4>
-                  </div>
-                  <div class="option">
-                    <ul>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i>
-                        Unlimited GB Space
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i> 30
-                        Domain Names
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i>
-                        Free SSL
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i>
-                        Daily Backup
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i>
-                        Free Templates
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i>
-                        Free Email
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i> 10
-                        Databases
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i>
-                        Unlimited Email Address
-                      </li>
-                      <li>
-                        <i class="bi bi-check-circle" aria-hidden="true"></i>
-                        Live Support
-                      </li>
-                    </ul>
-                  </div>
-                  <a href="#">Order Now</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <!-- End Pricing Section -->
-
-      <!--  Testimonials Section  -->
-      <!-- <section id="testimonials" class="testimonials">
-        <div class="container" data-aos="fade-up">
-          <div class="section-header">
-            <h2>Testimonials</h2>
-            <p>Lorem ipsum dolor sit amet</p>
-          </div>
-
-          <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <div class="d-flex align-items-center info-box">
-                      <img
-                        src="assets/images/testimonials/testimonial-1.jpg"
-                        class="testimonial-img flex-shrink-0"
-                        alt=""
-                      />
-                      <div>
-                        <h3>Jhone Doe</h3>
-                        <h4>CFO</h4>
-                        <div class="stars">
-                          <i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i>
-                        </div>
-                      </div>
-                    </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      Proin iaculis purus consequat sem cure digni ssim donec
-                      porttitora entum suscipit rhoncus. Accusantium quam,
-                      ultricies eget id, aliquam eget nibh et. Maecen aliquam.
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <div class="d-flex align-items-center info-box">
-                      <img
-                        src="assets/images/testimonials/testimonial-2.jpg"
-                        class="testimonial-img flex-shrink-0"
-                        alt=""
-                      />
-                      <div>
-                        <h3>Afa Rose</h3>
-                        <h4>Web Designer</h4>
-                        <div class="stars">
-                          <i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i>
-                        </div>
-                      </div>
-                    </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      Proin iaculis purus consequat sem cure digni ssim donec
-                      porttitora entum suscipit rhoncus. Accusantium quam,
-                      ultricies eget id, aliquam eget nibh et. Maecen aliquam.
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <div class="d-flex align-items-center info-box">
-                      <img
-                        src="assets/images/testimonials/testimonial-3.jpg"
-                        class="testimonial-img flex-shrink-0"
-                        alt=""
-                      />
-                      <div>
-                        <h3>Keena Lara</h3>
-                        <h4>Store Owner</h4>
-                        <div class="stars">
-                          <i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i>
-                        </div>
-                      </div>
-                    </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      Proin iaculis purus consequat sem cure digni ssim donec
-                      porttitora entum suscipit rhoncus. Accusantium quam,
-                      ultricies eget id, aliquam eget nibh et. Maecen aliquam.
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <div class="d-flex align-items-center info-box">
-                      <img
-                        src="assets/images/testimonials/testimonial-4.jpg"
-                        class="testimonial-img flex-shrink-0"
-                        alt=""
-                      />
-                      <div>
-                        <h3>Fizzi Brandon</h3>
-                        <h4>Freelancer</h4>
-                        <div class="stars">
-                          <i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i>
-                        </div>
-                      </div>
-                    </div>
-                    <p>
-                      <i class="bi bi-quote quote-icon-left"></i>
-                      Proin iaculis purus consequat sem cure digni ssim donec
-                      porttitora entum suscipit rhoncus. Accusantium quam,
-                      ultricies eget id, aliquam eget nibh et. Maecen aliquam.
-                      <i class="bi bi-quote quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </div>
-      </section> -->
-      <!-- End Testimonials Section -->
 
       <!--  Start Counter Section  -->
       <div id="stats-counter" class="call-to-action stats-counter section">
@@ -1786,11 +562,11 @@
                 </div>
                 <span
                   data-purecounter-start="0"
-                  data-purecounter-end="453"
+                  data-purecounter-end="500"
                   data-purecounter-duration="1"
                   class="purecounter"
                 ></span>
-                <p></p>
+                <p>heures de soutiens clients</p>
               </div>
               <!-- End Stats Item -->
             </div>
@@ -1810,13 +586,14 @@
               <div class="swiper-slide">
                 <img src="assets/images/LogoDSG.jpg" class="img-fluid" alt="" />
               </div>
+              <div class="swiper-slide">
+                <img src="assets/images/LogoDSG.jpg" class="img-fluid" alt="" />
+              </div>
             </div>
           </div>
         </div>
       </div>
       <!--  Clients Section  -->
-
-      <!-- End Clients Section -->
 
       <!--  Our Team Section  -->
       <section id="team" class="team sections-bg">
@@ -1825,7 +602,6 @@
             <h2>EQUIPES</h2>
             <p>Notre équipe dynamique</p>
           </div>
-
           <div class="row gy-4">
             <div
               class="col-xl-3 col-md-6 d-flex aos-init aos-animate"
@@ -2045,7 +821,7 @@
                 cliquez sur le bouton, et patientez le temps que votre boite
                 mail s'ouvre
               </p>
-              <a class="cta-btn" href="mailto:tchetchelevis6@gmail.com"
+              <a class="cta-btn" href="mailto:info@teambi.ci"
                 >Conatctez nous</a
               >
             </div>
@@ -2224,7 +1000,8 @@
                             >
                               &times;
                             </button>
-                            Message bien envoyé, nous vous repondons au plus vite !
+                            Message bien envoyé, nous vous repondons au plus
+                            vite !
                           </div>
                         </div>
                       </div>
@@ -2236,95 +1013,7 @@
 
             <!-- <div class="col-lg-8 col-md-12" data-aos="fade-left">
 
-              <div class="contact-form-box contact-form contact-form-3">
-                <div class="form-container-box">
-                  <form
-                    class="contact-form form"
-                    id="ajax-contact"
-                    method="post"
-                    action="assets/phpscripts/contact.php"
-                  >
-                    <div class="controls">
-                      <div class="row">
-                        <div class="col-md-6">
-                          <div class="form-group form-input-box">
-                            <input
-                              type="text"
-                              class="form-control"
-                              id="name"
-                              name="name"
-                              placeholder="Name*"
-                              required="required"
-                              data-error="Name is required."
-                            />
-                            <div class="help-block with-errors"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                          <div class="form-group form-input-box">
-                            <input
-                              type="email"
-                              class="form-control"
-                              id="email"
-                              name="email"
-                              placeholder="Email*"
-                              required="required"
-                              data-error="Valid email is required."
-                            />
-                            <div class="help-block with-errors"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12">
-                          <div class="form-group form-input-box">
-                            <input
-                              type="text"
-                              class="form-control"
-                              name="subject"
-                              placeholder="Subject"
-                              required="required"
-                            />
-                          </div>
-                        </div>
-                        <div class="col-12">
-                          <div class="form-group form-input-box">
-                            <textarea
-                              class="form-control"
-                              id="message"
-                              name="message"
-                              rows="7"
-                              placeholder="Write Your Message*"
-                              required="required"
-                              data-error="Please, leave us a message."
-                            ></textarea>
-                            <div class="help-block with-errors"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12">
-                          <button type="submit" data-text="Send Message">
-                            Send Message
-                          </button>
-                        </div>
-                        <div class="messages">
-                          <div
-                            class="alert alert alert-success alert-dismissable alert-dismissable hidden"
-                            id="msgSubmit"
-                          >
-                            <button
-                              type="button"
-                              class="close"
-                              data-dismiss="alert"
-                              aria-hidden="true"
-                            >
-                              &times;
-                            </button>
-                            Thank You! your message has been sent.
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
+
             </div> -->
           </div>
         </div>
@@ -2396,7 +1085,7 @@
             <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
               <div class="service-widget footer-widget">
                 <div class="footer-widget-heading">
-                  <h3>Information</h3>
+                  <h3>Informations</h3>
                 </div>
                 <ul class="list">
                   <li><a href="about.html">A propos de nous</a></li>
@@ -2404,12 +1093,8 @@
                   <li><a href="team.html">Equipe</a></li>
                   <li><a href="porfolio.html">Portfolio</a></li>
                   <li><a href="faq.html">FAQs</a></li>
-                  <!-- <li><a href="team.html">Team</a></li>-->
                   <li><a href="blogs.html">Blogs</a></li>
-                  <li><a href="blogs-details.html">Blog Details</a></li>
-                  <!--<li><a href="coming-soon.html">Coming Soon</a></li>-->
                   <li><a href="privacy-policy.html">Terms & Conditions</a></li>
-                  <li><a href="privacy-policy.html">Privacy Policy</a></li>
                 </ul>
               </div>
             </div>
@@ -2420,16 +1105,16 @@
                 </div>
                 <div class="footer-text">
                   <p>
-                    <i class="bi bi-geo-alt-fill mr-15"></i> 101 West Town , PBO
-                    12345, United States
+                    <i class="bi bi-geo-alt-fill mr-15"></i> Abidjan Côte
+                    d'Ivoire, Cocody Riviera, Ancien Camp Militaire Akouedo
                   </p>
                   <p>
-                    <i class="bi bi-telephone-inbound-fill mr-15"></i> +1 1234
-                    56 789
+                    <i class="bi bi-telephone-inbound-fill mr-15"></i> +225 25
+                    22 01 96 10
                   </p>
                   <p>
                     <i class="bi bi-envelope-fill mr-15"></i>
-                    contact@example.com
+                    info@teambi.ci
                   </p>
                 </div>
               </div>
@@ -2439,8 +1124,8 @@
                 </div>
                 <div class="footer-text mb-25">
                   <p>
-                    Don't miss to subscribe to our new feeds, kindly fill the
-                    form below.
+                    N'oubliez pas de vous abonné à nore Newsletter en envoyant
+                    votre email.
                   </p>
                 </div>
                 <div class="subscribe-form">
